@@ -1,6 +1,4 @@
-# 못품
-
-"""from sys import stdin
+from sys import stdin
 
 array = [True for i in range(1000001)]
 
@@ -12,9 +10,10 @@ for i in range(2, 1001):
 while True:
     n = int(stdin.readline())
 
-    if n == 0: break
+    if n == 0:
+        break
 
     for i in range(3, len(array)):
-        if array[i] and array[n-i]:
-            print(n, "=", i, "+", n-i)
-            break"""
+        if array[i] and array[n - i]:
+            print(n, "=", i, "+", n - i)
+            break

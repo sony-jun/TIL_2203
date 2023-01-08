@@ -1,7 +1,7 @@
 # 못품
 # 에라토스테네스의 체
 
-"""
+
 def isPrime(num):
     if num == 1:
         return False
@@ -17,4 +17,3 @@ M, N = map(int, input().split())
 for i in range(M, N + 1):
     if isPrime(i):
         print(i)
-"""
