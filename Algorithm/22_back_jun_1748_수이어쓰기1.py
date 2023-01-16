@@ -1,12 +1,25 @@
 n = input()
 
-comp = len(n) - 1
+le = len(n)
 
-answer = 0
+cnt = 0
 
-for i in range(comp):
-    answer += 9 * (10**i) * (i + 1)
-    i += 1
-answer += ((int(n) - (10**comp)) + 1) * (comp + 1)
+for i in range(le - 1):
+    cnt += 9 * (10**i) * (i + 1)
 
-print(answer)
+a = cnt + ((int(n) - (10 ** (le - 1))) + 1) * (le)
+
+print(a)
+
+
+# 규칙 못찾았을 때
+# from sys import stdin
+
+# input = stdin.readline
+# n = int(input())
+
+# cnt = 0
+# for i in range(1, n + 1):
+#     cnt += len(str(i))
+
+# print(cnt)
