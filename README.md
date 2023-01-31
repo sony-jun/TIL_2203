@@ -47,5 +47,21 @@
  <summary>2월</summary>
 <div markdown="1">
 
-
 # 2월
+
+![c1d13f1d962efb0dd59f4f1e9f9570c9-600x400](README.assets/c1d13f1d962efb0dd59f4f1e9f9570c9-600x400.jpg)
+
+- 🥪[2월 1일](./2월/2.1.md)
+
+</div>
+</details>
+
+
+
+<details>
+ <summary>3월</summary>
+<div markdown="1">
+
+# 3월
+</div>
+</details>
