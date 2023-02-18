@@ -1,6 +1,6 @@
 from collections import deque
 
-
+# 4방향으로 탐색(대각선은 연결로 취급하지 않음)
 def bfs(x, y):
     diff = [
         [-1, 0],
