@@ -77,6 +77,8 @@
 - 🥽[2월 24일](./2월/2.24.md)
 - 👩‍💻[2월 25일](./2월/2.25.md)
 - 👱‍♀️[2월 26일](./2월/2.26.md)
+- 🥙[2월 27일](./2월/2.27.md)
+- 🧆[2월 28일](./2월/2.28.md)
 
 </div>
 </details>
@@ -88,5 +90,22 @@
 <div markdown="1">
 
 # 3월
+
+![3](README.assets/3.jpg)
+
+
+- 🥃[3월 1일](./3월/3.1.md)
+
+</div>
+</details>
+
+
+
+
+<details>
+ <summary>4월</summary>
+<div markdown="1">
+
+# 4월
 </div>
 </details>
