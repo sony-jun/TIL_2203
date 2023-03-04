@@ -8,7 +8,7 @@
 # (1,3) , (2,3) , (3,3)
 # (2,4)
 
-
+# 결과 : swea에서 통과 못함 why?
 t = int(input())
 for p in range(1, t + 1):
     n = int(input())
