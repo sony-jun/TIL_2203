@@ -1,17 +1,21 @@
-from sys import stdin
+import sys
 
-array = [True for i in range(1000001)]
+li = [1] * (1000001)
+for i in range(2, int(1000001**0.5) + 1):
+    if li[i] == 1:
+        for j in range(i + i, 1000001, i):
+            li[j] = 0
 
-for i in range(2, 1001):
-    if array[i]:
-        for k in range(i + i, 1000001, i):
-            array[k] = False
-
-t = int(input())
-for j in range(t):
-    n = int(input())
-    cnt = 0
-    for k in range(2, (n // 2) + 1):
-        if array[k] and array[n - k]:
-            cnt += 1
-    print(cnt)
+while 1:
+    n = int(sys.stdin.readline())
+    if n == 0:
+        break
+    a = b = 0
+    for i in range(2, n // 2 + 1):
+        if li[i] == 1 and li[n - i] == 1:
+            a, b = i, n - i
+            break
+    if a + b:
+        print(f"{n} = {a} + {b}")
+    else:
+        print("Goldbach's conjecture is wrong.")
