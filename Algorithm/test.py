@@ -1,4 +1,2 @@
-print(
-    """1
-0"""
-)
+a, b = input().split()
+print(int(int(b), int(a)))
