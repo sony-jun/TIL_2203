@@ -325,7 +325,22 @@
 
 # 6월
 
+![6M](README.assets/6M.jpg)
 
-- 🥃[6월 1일](./6월/6.1.md)
+
+- 🤹[6월 1일](./6월/6.1.md)
+  </div>
+  </details>
+
+
+
+<details>
+ <summary>7월</summary>
+<div markdown="1">
+
+
+# 7월
+
+- 🤹[7월 1일](./7월/7.1.md)
   </div>
   </details>
