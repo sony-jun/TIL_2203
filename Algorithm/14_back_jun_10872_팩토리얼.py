@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/10872
+
+
 n = int(input())
 cnt = 1
 if n > 0:

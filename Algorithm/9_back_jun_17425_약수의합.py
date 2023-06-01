@@ -1,7 +1,9 @@
+# https://www.acmicpc.net/problem/17425
+
+
 # 시간초과
 t = int(input())
 for i in range(t):
-
     n = int(input())
 
     cnt = 0

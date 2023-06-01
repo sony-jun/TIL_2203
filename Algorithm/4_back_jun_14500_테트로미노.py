@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/14500
+
+
 # 실패
 
 import sys

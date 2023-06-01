@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/17103
+
+
 from sys import stdin
 
 array = [True for i in range(1000001)]

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1978
+
+
 n = int(input())
 num = map(int, input().split())
 sosu = 0

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1107
+
+
 # 실패!
 
 target = int(input())

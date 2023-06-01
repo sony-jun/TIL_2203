@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1748
+
+
 n = input()
 
 le = len(n)

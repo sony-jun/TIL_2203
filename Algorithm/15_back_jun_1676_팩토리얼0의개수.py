@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1676
+
+
 n = int(input())
 cnt5 = 0
 for i in range(1, n + 1):

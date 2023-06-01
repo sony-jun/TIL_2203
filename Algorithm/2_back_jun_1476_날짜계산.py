@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1476
+
+
 # 성공!
 
 e, s, m = map(int, input().split())  # 지구 태양 달의 정수값을 받으므로

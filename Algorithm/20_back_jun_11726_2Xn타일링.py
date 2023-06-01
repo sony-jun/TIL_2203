@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/11726
+
+
 n = int(input())
 if n == 1:
     print(1)

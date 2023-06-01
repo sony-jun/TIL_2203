@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/9613
+
+
 # 못품!
 # 유클리드 호제법
 # 두 양의 정수 a,b (a>b)에 대하여
@@ -8,7 +11,6 @@
 
 
 def gcd(x, y):  # 여기서 최대공약수를 구하나?
-
     return
 
 

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1990
+
+
 # 무슨 조건이 더 필요하지???
 from sys import stdin
 

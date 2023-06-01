@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1929
+
+
 import sys
 
 li = [1] * (1000001)

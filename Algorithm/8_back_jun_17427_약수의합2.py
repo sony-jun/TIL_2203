@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/17427
+
+
 # 못품! 시간 초과 뜸
 n = int(input())
 li = []

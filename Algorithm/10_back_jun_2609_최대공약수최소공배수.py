@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2609
+
+
 a, b = map(int, input().split())
 y = [a, b]
 for i in range(min(y), 0, -1):
