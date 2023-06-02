@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1912
+
+
 n = int(input())
 m = list(map(int, input().split(" ")))
 

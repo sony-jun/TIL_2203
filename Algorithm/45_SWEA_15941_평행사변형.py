@@ -1,3 +1,6 @@
+# https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AYVgOZEKOpcDFAQK
+
+
 res = []
 for m in range(int(input())):
     res.append(int(input()) ** 2)

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1463
+
+
 n = int(input())
 d = [0] * (n + 1)
 

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2156
+
+
 n = int(input())
 w = [0]
 for i in range(n):

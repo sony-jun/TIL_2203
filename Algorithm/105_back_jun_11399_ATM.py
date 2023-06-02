@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/11399
+
+
 n = int(input())  # 첫째줄 입력
 peoples = list(map(int, input().split()))  # 기다리는 사람들 리스트 형태로 입력 받음
 

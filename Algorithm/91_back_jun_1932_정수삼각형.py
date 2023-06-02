@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1932
+
+
 n = int(input())
 d = []
 for i in range(n):

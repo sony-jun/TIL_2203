@@ -1,5 +1,9 @@
+# https://www.acmicpc.net/problem/2504
+
+
 # 괄호 입력
 brackets = input().strip()
+
 
 # 처음에 옳바는 방식의 괄호형식인지 판단
 def check_brackets(bs):

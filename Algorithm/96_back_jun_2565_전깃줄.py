@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2565
+
+
 n = int(input())
 w = []
 w_b = []

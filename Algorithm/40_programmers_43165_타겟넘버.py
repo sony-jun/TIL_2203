@@ -1,3 +1,6 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/43165
+
+
 # 모든 값을 다 미리 계산하는건 너무 커지나...?
 # 20이면 음...안되네
 

@@ -1,5 +1,4 @@
-# 스타트와 링크 - BOJ 14889
-# DFS(백트래킹)
+# https://www.acmicpc.net/problem/14899
 
 
 def dfs(depth, idx):

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/10798
+
+
 arr = []
 
 for _ in range(5):

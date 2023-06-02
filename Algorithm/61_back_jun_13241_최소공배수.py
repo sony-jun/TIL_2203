@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/13241
+
+
 # 입력
 A, B = map(int, input().split())
 res = A * B

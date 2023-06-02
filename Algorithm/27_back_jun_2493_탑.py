@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2493
+
+
 # 문제가 이해가 안됨
 
 import sys

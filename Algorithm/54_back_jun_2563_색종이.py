@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2563
+
+
 N = int(input())
 paper = [[0 for _ in range(101)] for _ in range(101)]
 

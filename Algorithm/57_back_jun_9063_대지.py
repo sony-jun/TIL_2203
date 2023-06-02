@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/9063
+
+
 n = int(input())
 a, b = map(int, input().split())
 if n < 2:

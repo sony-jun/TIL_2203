@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/12852
+
+
 import sys
 
 n = int(sys.stdin.readline())
@@ -10,7 +13,6 @@ dp[1][0] = 0
 dp[1][1] = [1]
 
 for x in range(2, n + 1):
-
     # 먼저, f(x-1) + 1를 사용해 DP 테이블 채우기
     dp[x][0] = dp[x - 1][0] + 1
     dp[x][1] = dp[x - 1][1] + [x]

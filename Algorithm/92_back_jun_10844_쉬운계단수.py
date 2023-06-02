@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/10844
+
+
 n = int(input())
 dp = [[0 for i in range(10)] for j in range(101)]
 for i in range(1, 10):

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/9461
+
+
 wh = [0 for i in range(101)]
 wh[1] = 1
 wh[2] = 1

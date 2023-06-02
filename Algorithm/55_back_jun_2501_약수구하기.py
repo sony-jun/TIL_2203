@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2501
+
+
 n, k = map(int, input().split())
 
 divisor = []

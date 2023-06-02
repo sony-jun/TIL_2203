@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/14888
+
+
 # 백트래킹 (Python3 통과, PyPy3도 통과)
 import sys
 

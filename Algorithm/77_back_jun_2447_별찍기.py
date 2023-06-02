@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2447
+
+
 def draw_stars(n):
     if n == 1:
         return ["*"]

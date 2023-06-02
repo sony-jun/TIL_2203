@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/17413
+
+
 s = list(input())
 
 res = ""
@@ -5,7 +8,6 @@ word = ""
 reverse = True
 
 for c in s:
-
     if c == "<":
         reverse = False
         res += word

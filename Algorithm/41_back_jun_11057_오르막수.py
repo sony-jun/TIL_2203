@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/11057
+
+
 n = int(input())
 dp = [1] * 10
 for i in range(1, n):

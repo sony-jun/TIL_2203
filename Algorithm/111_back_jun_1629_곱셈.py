@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1629
+
+
 def dac(a, b, c):
     if b == 1:
         return a % c

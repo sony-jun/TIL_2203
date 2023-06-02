@@ -8,6 +8,9 @@
 # 자기 자신과 같은 숫자를 만난다면 continue 로 지나가기
 # list 에 있는 숫자 중 가장 적은 수를 출력
 
+# https://www.acmicpc.net/problem/2146
+
+
 # 처음에 생각했을때 섬의 개수를 생각하지 않고 구현하는 방법을 생각해봤는데
 # 섬을 구분하지 않으면 떨어져 있는 거리를 구하는 게 의미가 없음
 
@@ -15,6 +18,7 @@
 
 from pprint import pprint
 from collections import deque
+
 
 # 대각선을 사용하지 않기 때문에 4방향 탐색
 def bfs(x, y):

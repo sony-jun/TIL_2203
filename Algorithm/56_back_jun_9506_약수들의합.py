@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/9506
+
+
 while True:
     n = int(input())
     if n == -1:  # 입력 값이 -1이면 반복문 종료

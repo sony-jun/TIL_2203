@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/6198
+
+
 import sys
 
 input = sys.stdin.readline
@@ -13,7 +16,7 @@ stack = []
 answer = 0
 for _ in range(n):
     tower = int(input())
-    if stack: 
+    if stack:
         if stack[-1] <= tower:
             while stack and stack[-1] <= tower:
                 stack.pop()

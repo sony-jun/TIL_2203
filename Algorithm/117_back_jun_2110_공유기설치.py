@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2110
+
+
 # 바이너리 서치 - 이진탐색 (binary search)
 # BigO : O(log N)
 # 정렬된 자료를 반으로 나누어 탐색하는 방법

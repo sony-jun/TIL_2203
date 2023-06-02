@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1697
+
+
 # 1로만들기랑 같은 방법이지 않을까?
 # dp로 접근함
 # 아니였음...

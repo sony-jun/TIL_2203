@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1992
+
+
 n = int(input())
 graph = [list(map(int, input())) for _ in range(n)]
 

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1735
+
+
 def gcd(x, y):  # 최대공약수, 유클리드 호제
     mod = x % y
     while mod > 0:

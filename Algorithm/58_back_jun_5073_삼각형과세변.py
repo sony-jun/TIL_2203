@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/5073
+
+
 while 1:
     li = sorted(list(map(int, input().split())))
     if li[0] == li[1] == li[2] == 0:

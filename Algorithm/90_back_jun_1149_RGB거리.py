@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/1149
+
+
 n = int(input())
 p = []
 for i in range(n):

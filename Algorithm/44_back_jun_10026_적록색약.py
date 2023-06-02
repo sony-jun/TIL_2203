@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/10026
+
+
 import sys
 
 input = sys.stdin.readline
@@ -7,6 +10,7 @@ data = [list(input().rstrip()) for _ in range(n)]
 temp_data = data
 dx = [0, 0, 1, -1]
 dy = [1, -1, 0, 0]
+
 
 # 색맹아님
 def not_cb_dfs(x, y):

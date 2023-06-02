@@ -1,3 +1,6 @@
+# https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB
+
+
 # 홀수 matrix 에 마름모를 어떻게 구현할 것인가?
 # 숫자가 정해지면 마름모 모양도 자동으로 정해진다
 

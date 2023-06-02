@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/12865
+
+
 import sys
 
 N, K = map(int, input().split())

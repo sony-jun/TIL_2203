@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/9663
+
+
 # 이해하기 아주 어려운 문제....다시 한번 검토 할 필요가 있다
 
 n = int(input())

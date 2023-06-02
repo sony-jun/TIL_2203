@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/2720
+
+
 T = int(input())
 moneys = [25, 10, 5, 1]
 count = [0] * 4

@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/10986
+
+
 # import sys
 
 # total, tar = map(int, sys.stdin.readline().split())

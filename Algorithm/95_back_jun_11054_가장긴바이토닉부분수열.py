@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/11054
+
+
 x = int(input())
 
 case = list(map(int, input().split()))
