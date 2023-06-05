@@ -1,2 +1,4 @@
-a, b = input().split()
-print(int(int(b), int(a)))
+str = input()
+
+result = str.swapcase()
+print(result)
