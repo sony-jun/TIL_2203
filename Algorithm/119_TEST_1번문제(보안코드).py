@@ -8,7 +8,7 @@ ch_len = len(ch)
 
 for i in range(len(li)):
     stack.append(li[i])
-    if "".join(stack[-ch_len]) == ch:
+    if "".join(stack[-ch_len:]) == ch:
         for j in range(ch_len):
             stack.pop()
 
