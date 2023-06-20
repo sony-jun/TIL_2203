@@ -1,41 +1,108 @@
-import sys
-from collections import deque
+import random
 
-input = sys.stdin.readline
 
-N = int(input())
-Y, X = map(int, input().split())
+class TreeNode:
+    def __init__(self):
+        self.left = None
+        self.data = None
+        self.right = None
 
-M = [[0 for _ in range(N + 1)] for _ in range(N + 1)]
-V = [[0 for _ in range(N + 1)] for _ in range(N + 1)]
-for i in range(1, N + 1):
-    M[i] = [0] + list(map(int, input().split()))
 
-K = M[Y][X]
+memory = []
+rootBook, rootAuth = None, None
+bookAry = [
+    ["어린왕자", "쌩떽쥐베리"],
+    ["이방인", "까뮈"],
+    ["부활", "톨스토이"],
+    ["신곡", "단테"],
+    ["돈키호테", "세브반테스"],
+    ["동물농장", "조지오웰"],
+    ["데미안", "헤르만헤세"],
+    ["파우스트", "괴테"],
+    ["대지", "펄벅"],
+]
+random.shuffle(bookAry)
 
-dy = [0, 1, 0, -1]
-dx = [1, 0, -1, 0]
-ans = 0
+### 책 이름 트리 ###
+node = TreeNode()
+node.data = bookAry[0][0]
+rootBook = node
+memory.append(node)
 
-for i in range(1, N + 1):
-    for j in range(1, N + 1):
-        if V[i][j] or M[i][j] != K:
-            continue
-        Q = deque()
-        V[i][j] = 1
-        cnt = 0
-        Q.append([i, j])
-        while Q:
-            cy, cx = Q.popleft()
-            cnt += 1
-            for k in range(4):
-                ny, nx = cy + dy[k], cx + dx[k]
-                if ny < 1 or nx < 1 or ny > N or nx > N:
-                    continue
-                if V[ny][nx] or M[ny][nx] != M[cy][cx]:
-                    continue
-                V[ny][nx] = 1
-                Q.append([ny, nx])
-        ans = max(ans, cnt)
+for book in bookAry[1:]:
+    name = book[0]
+    node = TreeNode()
+    node.data = name
 
-print(ans)
+    current = rootBook
+    while True:
+        if name < current.data:
+            if current.left == None:
+                current.left = node
+                break
+            current = current.left
+        else:
+            if current.right == None:
+                current.right = node
+                break
+            current = current.right
+
+    memory.append(node)
+
+
+print("책 이름 트리 구성 완료!")
+
+### 작가 이름 트리 ###
+node = TreeNode()
+node.data = bookAry[0][1]
+rootAuth = node
+memory.append(node)
+
+for book in bookAry[1:]:
+    name = book[1]
+    node = TreeNode()
+    node.data = name
+
+    current = rootAuth
+    while True:
+        if name < current.data:
+            if current.left == None:
+                current.left = node
+                break
+            current = current.left
+        else:
+            if current.right == None:
+                current.right = node
+                break
+            current = current.right
+
+    memory.append(node)
+
+print("작가 이름 트리 구성 완료!")
+for y in range(len(memory)):
+    print(memory[y])
+## 책 이름 및 작가 이름 검색 ##
+bookOrAuth = int(input("책검색(1), 작가검색(2)-->"))
+findName = input("검색할 책 또는 작가-->")
+
+if bookOrAuth == 1:
+    root = rootBook
+else:
+    root = rootAuth
+
+current = root
+while True:
+    if findName == current.data:
+        print(findName, "을(를) 찾음.")
+        findYN = True
+        break
+    elif findName < current.data:
+        if current.left == None:
+            print(findName, "이(가) 목록에 없음")
+            break
+        current = current.left
+    else:
+        if current.right == None:
+            print(findName, "이(가) 목록에 없음")
+            break
+        current = current.right
