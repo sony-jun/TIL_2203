@@ -1,7 +1,5 @@
 <details>
  <summary>1월</summary>
-
-
 <div markdown="1">
 
 # 1월
@@ -402,6 +400,20 @@
 
 # 7월
 
-- 🤹[7월 1일](./7월/7.1.md)
+![999228465D10D55031](README.assets/999228465D10D55031.jpg)
+
+- 🖲️[7월 1일](./7월/7.1.md)
+  </div>
+  </details>
+
+
+<details>
+ <summary>7월</summary>
+<div markdown="1">
+
+
+# 8월
+
+- 🤹[8월 1일](./8월/8.1.md)
   </div>
   </details>
