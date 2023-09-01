@@ -555,8 +555,29 @@
 
 # 9월
 
+<img src="README.assets/2NG-58468222_l.jpg" alt="2NG-58468222_l" style="zoom:80%;" />
 
-- 🙌[9월 1일](./9월/9.1.md)
+
+- 👘[9월 1일](./9월/9.1.md)
+
+- 😁[9월 2일](./9월/9.2.md)
+
+  
+
+  </div>
+  </details>
+
+
+<details>
+ <summary>10월</summary>
+<div markdown="1">
+
+
+
+# 10월
+
+
+- 🙌[10월 1일](./10월/10.1.md)
   
   
   
