@@ -711,10 +711,33 @@
 
 # 11월
 
+![ec929dbb108525b3b98a0b67c4dc3a62](README.assets/ec929dbb108525b3b98a0b67c4dc3a62.jpg)
 
-- 🙌[11월 1일](./11월/11.1.md)
+
+- 💁‍♂️[11월 1일](./11월/11.1.md)
+
+- 🍂[11월 2일](./11월/11.2.md)
+
   
+
+  </div>
+  </details>
+
+
+<details>
+ <summary>12월</summary>
+<div markdown="1">
+
+
+
+# 12월
+
+![large](README.assets/large.jpg)
+
+
+- 💁‍♂️[12월 1일](./12월/12.1.md)
+
   
-  
+
   </div>
   </details>
